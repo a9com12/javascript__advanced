@@ -20,4 +20,4 @@ console.log(a*b);
 c = 30;
 console.log(a+b+c);
 let d;
-console.log(d);
+console.log(d);∫
