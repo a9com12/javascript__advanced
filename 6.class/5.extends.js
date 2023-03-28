@@ -61,6 +61,7 @@ class Dog extends Animal {
 
 
 const dog = new Dog("Red", "Jin");
+const dog = new Dog("Red", "Jin");
 console.log(dog);
 dog.sleep();
 dog.eat();
