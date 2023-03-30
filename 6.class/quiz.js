@@ -24,4 +24,5 @@ counter.increment();
 counter.increment();
 console.log(counter.value);
 console.log(counter.value);
+console.log(counter.value);
 
