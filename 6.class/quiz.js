@@ -22,7 +22,5 @@ class Counter {
 const counter = new Counter(0);
 counter.increment();
 counter.increment();
-console.log(counter.value);
-console.log(counter.value);
-console.log(counter.value);
+
 
