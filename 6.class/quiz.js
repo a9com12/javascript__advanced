@@ -22,5 +22,6 @@ class Counter {
 const counter = new Counter(0);
 counter.increment();
 counter.increment();
+counter.increment();
 
 
