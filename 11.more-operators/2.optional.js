@@ -17,3 +17,6 @@ console.log(ownerName);
 
 printName(obj);
 printName(obj);
+printName(obj);
+printName(obj);
+
