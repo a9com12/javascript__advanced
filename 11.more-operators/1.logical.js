@@ -12,10 +12,11 @@ if (obj1 || obj2) {
 
 // 조건문 밖에서 쓰면 평가를 단축함
 // 변수에 할당하는 경우라면 평가하지 않는다.
+// 평가하는 대신에 obj2가 평가되지않고 result에 할당
+// 평가하고 싶으면 조건문안에 넣어야한다.
 
 let result = obj1 && obj2;  // 뒤에것이 할당
 console.log(result);
-
 
 
 result = obj1 || obj2; // 먼저 true인것이 할당
@@ -24,7 +25,7 @@ console.log(result);
 
 // 활용예
 // && 조건이 true 일때, && 무언가를 해야할 경우
-// || 조건이 false 일때, || 무언가를 해애할 경우
+// || 조건이 false 일때, || 무언가를 해야할 경우
 
 function changeOwner(animal) {
     if(!animal.owner) {
@@ -56,6 +57,10 @@ console.log(obj2);
 
 
 // null 또는 undefined인 경우를 확인할때
+// 위와 같이 변수에 할당하는 경우라면 평가하지 않는다.
+// 평가하는 대신에 item.price가 평가되지않고 price에 할당
+// 평가하고 싶으면 조건문안에 넣어야한다.
+
 let item = {price: 1};
 const price = item && item.price;
 console.log(price);
