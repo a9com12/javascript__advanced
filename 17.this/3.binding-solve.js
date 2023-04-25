@@ -18,7 +18,7 @@ function Cat(name) {
 function Dog(name) {
     this.name = name;
     this.printName = function () {
-        console.log(`강아지의 이름을 출력한다: ${this.name}`);
+        console.log(`강아지의 이름을 : ${this.name}`);
     }
 }
 const cat = new Cat("냐옹");
